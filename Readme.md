@@ -4,7 +4,7 @@ This project builds a **Linear Regression model** to predict a student’s chanc
 
 ---
 
-## 📌 Project Motivation
+##  Project Motivation
 
 In today's competitive academic environment, many students seek to understand how their profile affects graduate school admissions. This project aims to:
 
@@ -14,7 +14,7 @@ In today's competitive academic environment, many students seek to understand ho
 
 ---
 
-## 📁 Files Included
+##  Files Included
 
 - `lr_linear_regression.ipynb` – Jupyter notebook with complete code
 - `requirements.txt` – Python dependencies
@@ -22,7 +22,7 @@ In today's competitive academic environment, many students seek to understand ho
 
 ---
 
-## 📊 Dataset Information
+## Dataset Information
 
 The dataset is publicly available on GitHub/Kaggle and contains 500 samples with the following attributes:
 
@@ -39,24 +39,24 @@ The dataset is publicly available on GitHub/Kaggle and contains 500 samples with
 
 ---
 
-## 🔧 Techniques Used
+##  Techniques Used
 
-- ✅ Data Preprocessing (`pandas`, `numpy`)
-- 📊 Exploratory Data Analysis (EDA) with `matplotlib` and `seaborn`
-- 🔍 Feature Correlation & Trend Analysis
-- 🧠 Model Training using `sklearn.linear_model.LinearRegression`
-- 📈 Evaluation Metrics: R² Score, MAE, MSE, RMSE
-- 📉 Residual Analysis & Regression Plots
+-  Data Preprocessing (`pandas`, `numpy`)
+-  Exploratory Data Analysis (EDA) with `matplotlib` and `seaborn`
+-  Feature Correlation & Trend Analysis
+-  Model Training using `sklearn.linear_model.LinearRegression`
+-  Evaluation Metrics: R² Score, MAE, MSE, RMSE
+-  Residual Analysis & Regression Plots
 
 ---
 
-## 📈 Key Results & Insights
+##  Key Results & Insights
 
 - The **CGPA** and **GRE Score** were the most influential predictors.
 - **Research Experience** and **University Rating** also had noticeable effects.
 - The model achieved an **R² Score of approximately 0.82**, indicating strong predictive power.
 
-### 🔬 Feature Importance Snapshot
+###  Feature Importance Snapshot
 
 | Feature         | Coefficient Impact |
 |-----------------|--------------------|
@@ -67,10 +67,14 @@ The dataset is publicly available on GitHub/Kaggle and contains 500 samples with
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/LinearRegressionProject.git
    cd LinearRegressionProject
 2.Install dependencies:
+pip install -r requirements.txt
+
+# 3. Run the project
+python lr_linear_regression.ipynb
